@@ -1,5 +1,6 @@
 import os
 
+
 def print_data():
     with open("phonebook.txt","r",encoding="utf-8") as file:
         phonebook_str = file.read()
